@@ -108,6 +108,45 @@
             border-top: 1px solid rgba(0, 0, 0, 0.187);
             font-weight: 300;
         }
+        @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .info {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            text-align: center;
+            justify-content: center;
+        }
+        .info .text {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        .info .img {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .two {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        h1 {
+            font-size: 18px;
+        }
+        .gif img {
+            width: 100%;
+        }
+        .images-responsive {
+            flex-direction: column;
+            width: 100%;
+        }
+        .images-responsive img {
+            height: 200px;
+            margin-bottom: 20px;
+        }
+}
     </style>
 </head>
 <body>

@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alx-Project-Landing-Page</title>
     <link rel="icon" href="/img/logo icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
             padding: 0;
             margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+        p {
+            font-weight: 300;
         }
         header {
             width: 100%;
@@ -39,12 +48,65 @@
         }
         .title {
             text-align: center;
-            
-            background-color: black;
+            background-color: rgb(116 70 34);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .title h1 {
             color: white;
             padding: 20px;
+        }
+        .info {
+            display: flex;
+            flex-direction: row;
+            padding: 30px;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .info .text {
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+        }
+        .info .text p {
+            padding: 0px;
+        }
+        .info .img {
+            width: 45%;
+            padding: 10px;
+        }
+        .info .img img {
+            width: 90%;
+        }
+        .gif {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .gif img {
+            width: 60%;
+        }
+        .images-responsive {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .images-responsive img {
+            height: 300px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #acaaaa20;
+            border-top: 1px solid rgba(0, 0, 0, 0.187);
+            font-weight: 300;
         }
     </style>
 </head>
@@ -56,20 +118,70 @@
         <button>Go to store</button>
     </header>
     <div class="title">
-        <h1>Sections</h1>
+        <h1> All Sections</h1>
     </div>
-    <div class="info">
+    <div class="info one">
         <div class="text">
-            <h3>About</h3>
-            <p>Welcome to Carpet Barber About, where style meets comfort in every thread. Discover a world of exquisite carpets and rugs designed to elevate your space. From timeless classics to contemporary marvels, our curated collection ensures there's something to suit every taste and interior. Explore our virtual showroom and embark on a journey to transform your home or office into a sanctuary of elegance.</p>
+            <h2>Home</h2>
+            <p>Welcome to Carpet Barber , where style meets comfort in every thread. Discover a world of exquisite carpets and rugs designed to elevate your space. From timeless classics to contemporary marvels, our curated collection ensures there's something to suit every taste and interior. Explore our virtual showroom and embark on a journey to transform your home or office into a sanctuary of elegance.</p>
         </div>
         <div class="img">
             <img src="img/imgMac1.png" alt="">
+        </div>
+    </div>
+    <div class="info two">
+        <div class="img">
+            <img src="img/imgMac3.png" alt="">
+        </div>
+        <div class="text">
+            <h2>Shop</h2>
+            <p>Dive into our online emporium of luxurious carpets and rugs, where every click leads you closer to finding the perfect addition to your space. Browse through our meticulously curated collection, thoughtfully categorized to streamline your shopping experience. Whether you're seeking a statement piece to anchor your living room or a cozy rug to warm up your bedroom, our diverse range ensures there's something for everyone. With seamless navigation and detailed product descriptions, finding your ideal carpet has never been easier.</p>
+        </div>
+        
+    </div>
+    <div class="info one">
+        <div class="text">
+            <h2>About</h2>
+            <p>At Carpet Barber, we're passionate about weaving dreams into reality, one carpet at a time. With a dedication to quality craftsmanship and an eye for design, we source only the finest materials to create pieces that inspire and endure. Our commitment to excellence extends beyond our products; it's woven into every aspect of our customer experience. Join us in celebrating the artistry of carpets and discover why Carpet Barber is your destination for luxurious floor coverings.</p>
+        </div>
+        <div class="img">
+            <img src="img/imgMac2.png" alt="">
+        </div>
+    </div>
+    <div class="info two">
+        <div class="img">
+            <img src="img/img6contac.png" alt="">
+        </div>
+        <div class="text">
+            <h2>Contact</h2>
+            <p>Looking to get in touch with us? It's easy! At Carpet Barber, we value open communication and are always eager to hear from you. To connect with us, simply navigate to our "Contact" section, where you'll find multiple convenient options. You can reach out to us via phone by dialing the provided number during our business hours. Prefer to send us a message? No problem! Just fill out the contact form on our website with your name, email, and message, and we'll get back to you as soon as possible. Additionally, you can visit our physical store location during our opening hours for a face-to-face conversation with our friendly staff. Whatever your preferred method of communication, we're here to assist you every step of the way. Reach out today and let's start a conversation about how Carpet Barber can elevate your space!</p>
+        </div>
+        
+    </div>
+    <div class="info one">
+        <div class="text">
+            <h2>Cart Shop</h2>
+            <p>Ready to make your vision a reality? Your journey with Carpet Barber culminates here, where you can review your selections and proceed to checkout with ease. Our secure payment gateway ensures your transactions are safe and stress-free, allowing you to focus on the excitement of bringing your chosen carpet into your home. With flexible shipping options and dedicated customer support, we're here to ensure your shopping experience is as smooth as silk. Join the countless others who have adorned their spaces with elegance from Carpet Barber, and let's embark on this journey together.</p>
+        </div>
+        <div class="img">
+            <img src="img/cart-shop7.png" alt="">
         </div>
     </div>
     
     <div class="title">
         <h1>How You Can Buy Carpet Berber in Store</h1>
     </div>
+    <div class="gif">
+        <img src="img/GIF.gif" alt="">
+    </div>
+    <div class="title">
+        <h1>Our Store is Responsive</h1>
+    </div>
+    <div class="images-responsive">
+        <img src="img/imgMac1.png" alt="">
+        <img src="img/image-tablet.png" alt="">
+        <img src="img/img0Phon.png" alt="">
+    </div>
+    <footer>© Carpet Barber 2024 .</footer>
 </body>
 </html>
